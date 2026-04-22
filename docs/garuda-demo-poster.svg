@@ -1,0 +1,85 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#04070D"/>
+      <stop offset="0.55" stop-color="#07131C"/>
+      <stop offset="1" stop-color="#040508"/>
+    </linearGradient>
+    <linearGradient id="cyanGreen" x1="118" y1="130" x2="938" y2="503" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F6FF"/>
+      <stop offset="0.5" stop-color="#35FFAA"/>
+      <stop offset="1" stop-color="#D9FF52"/>
+    </linearGradient>
+    <linearGradient id="magentaCyan" x1="834" y1="84" x2="1104" y2="286" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF3CAC"/>
+      <stop offset="1" stop-color="#00F6FF"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="32" y="32" width="1136" height="566" rx="28" stroke="#143240" stroke-width="2"/>
+  <rect x="48" y="48" width="1104" height="534" rx="22" fill="#071019" stroke="#123647"/>
+
+  <g opacity="0.22">
+    <path d="M0 120H1200" stroke="#1E3D49"/>
+    <path d="M0 210H1200" stroke="#1E3D49"/>
+    <path d="M0 300H1200" stroke="#1E3D49"/>
+    <path d="M0 390H1200" stroke="#1E3D49"/>
+    <path d="M0 480H1200" stroke="#1E3D49"/>
+    <path d="M150 0V630" stroke="#1E3D49"/>
+    <path d="M350 0V630" stroke="#1E3D49"/>
+    <path d="M550 0V630" stroke="#1E3D49"/>
+    <path d="M750 0V630" stroke="#1E3D49"/>
+    <path d="M950 0V630" stroke="#1E3D49"/>
+  </g>
+
+  <rect x="82" y="92" width="650" height="446" rx="24" fill="#06151D" stroke="#1C5668"/>
+  <rect x="98" y="108" width="618" height="414" rx="18" fill="#051019"/>
+
+  <path d="M98 182H716" stroke="#123745"/>
+  <path d="M98 402H716" stroke="#123745"/>
+  <path d="M304 108V522" stroke="#123745"/>
+  <path d="M509 108V522" stroke="#123745"/>
+
+  <circle cx="164" cy="154" r="7" fill="#00F6FF"/>
+  <circle cx="192" cy="154" r="7" fill="#35FFAA"/>
+  <circle cx="220" cy="154" r="7" fill="#FF3CAC"/>
+
+  <text x="118" y="250" fill="url(#cyanGreen)" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" letter-spacing="4">GARUDA</text>
+  <text x="118" y="298" fill="#9ED8E0" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="2.2">EMOTION-INTELLIGENT SENTINEL</text>
+  <text x="118" y="332" fill="#5E9EB0" font-family="Arial, Helvetica, sans-serif" font-size="21">Real-time voice threat detection, emergency response,</text>
+  <text x="118" y="362" fill="#5E9EB0" font-family="Arial, Helvetica, sans-serif" font-size="21">cyber intelligence visuals, and secure communication workflows.</text>
+
+  <rect x="118" y="396" width="150" height="42" rx="21" fill="#0A222C" stroke="#00F6FF"/>
+  <text x="147" y="423" fill="#D7FBFF" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">REACT + VITE</text>
+  <rect x="284" y="396" width="176" height="42" rx="21" fill="#0A222C" stroke="#35FFAA"/>
+  <text x="314" y="423" fill="#E8FFE1" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">SOCKET.IO + WEBRTC</text>
+  <rect x="476" y="396" width="154" height="42" rx="21" fill="#0A222C" stroke="#FF3CAC"/>
+  <text x="506" y="423" fill="#FFE5F4" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">CYBER UI DEMO</text>
+
+  <rect x="784" y="92" width="336" height="204" rx="24" fill="#091821" stroke="#1B4D5E"/>
+  <text x="814" y="134" fill="#7ED4E3" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="2">PROJECT DEMO</text>
+  <text x="814" y="170" fill="#EAFDFF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">GitHub README Preview</text>
+  <text x="814" y="210" fill="#8AB5C1" font-family="Arial, Helvetica, sans-serif" font-size="19">Bundled demo video included in this repository.</text>
+  <g filter="url(#glow)">
+    <circle cx="952" cy="248" r="42" fill="url(#magentaCyan)"/>
+    <path d="M940 227L973 248L940 269V227Z" fill="#071019"/>
+  </g>
+
+  <rect x="784" y="326" width="336" height="212" rx="24" fill="#091821" stroke="#1B4D5E"/>
+  <text x="814" y="368" fill="#7ED4E3" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="2">HIGHLIGHTS</text>
+  <text x="814" y="410" fill="#D8FBFF" font-family="Arial, Helvetica, sans-serif" font-size="22">• Animated cyberpunk landing page</text>
+  <text x="814" y="446" fill="#D8FBFF" font-family="Arial, Helvetica, sans-serif" font-size="22">• Threat dashboards and live counters</text>
+  <text x="814" y="482" fill="#D8FBFF" font-family="Arial, Helvetica, sans-serif" font-size="22">• Voice-call backend prototype</text>
+  <text x="814" y="518" fill="#D8FBFF" font-family="Arial, Helvetica, sans-serif" font-size="22">• Security and emergency-response narrative</text>
+
+  <rect x="82" y="558" width="1038" height="10" rx="5" fill="#0A222C"/>
+  <rect x="82" y="558" width="688" height="10" rx="5" fill="url(#cyanGreen)"/>
+</svg>
