@@ -2,88 +2,97 @@
 
 <div align="center">
 
-[![GARUDA demo poster](./docs/garuda-demo-poster.svg)](./docs/media/garuda-demo.mp4)
+[![GARUDA banner](./docs/garuda-demo-poster.svg)](./docs/media/garuda-demo.mp4)
 
 ### Emotion-Intelligent Sentinel for Real-Time Voice Threat Detection
 
-A cinematic cyber-defense project that combines a high-impact React showcase with a real-time voice communication prototype powered by WebRTC and Socket.IO.
+A cinematic cybersecurity showcase that blends a futuristic React product experience with a real-time voice communication prototype built for threat awareness, emotion analysis, and emergency-response storytelling.
 
-[Watch Demo Video](./docs/media/garuda-demo.mp4) | [Tech Stack](#tech-stack) | [Run Locally](#run-locally)
+[Watch Full Demo](./docs/media/garuda-demo.mp4) | [Open Frontend](./garuda-sentinel-core/) | [View Voice Prototype](./prototypes/voice-call-website/)
 
-<img src="https://img.shields.io/badge/React-18-06141b?style=for-the-badge&logo=react" alt="React" />
-<img src="https://img.shields.io/badge/TypeScript-Vite-06141b?style=for-the-badge&logo=typescript" alt="TypeScript Vite" />
-<img src="https://img.shields.io/badge/Tailwind-Cyber_UI-06141b?style=for-the-badge&logo=tailwindcss" alt="Tailwind" />
-<img src="https://img.shields.io/badge/Node.js-Socket.IO-06141b?style=for-the-badge&logo=node.js" alt="Node.js" />
+<img src="https://img.shields.io/badge/React-18-08131c?style=for-the-badge&logo=react" alt="React" />
+<img src="https://img.shields.io/badge/TypeScript-Vite-08131c?style=for-the-badge&logo=typescript" alt="TypeScript and Vite" />
+<img src="https://img.shields.io/badge/Tailwind-Cyber_UI-08131c?style=for-the-badge&logo=tailwindcss" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/Node.js-Socket.IO-08131c?style=for-the-badge&logo=node.js" alt="Node.js and Socket.IO" />
 
 </div>
 
 ---
 
-## Overview
+## Live Preview
 
-GARUDA is built as a cyber-intelligence showcase around voice-based threat detection, emotional distress analysis, and emergency-response storytelling. The repository combines a polished futuristic landing experience with a working voice-call prototype that gives the concept technical depth.
+The README now includes an inline motion preview so the repo feels alive on GitHub before anyone even clicks into the source.
 
-## Demo
+[![GARUDA animated preview](./docs/media/garuda-preview.gif)](./docs/media/garuda-demo.mp4)
 
-The repository includes the project demo here:
+## What Makes This Repo Stand Out
 
-- [GARUDA demo video](./docs/media/garuda-demo.mp4)
-
-For the cleanest GitHub presentation, the banner at the top of this README links directly to the demo video.
-
-## Highlights
-
-| Area | What stands out |
+| Layer | Why it works |
 | --- | --- |
-| Visual design | Matrix rain, animated counters, scan lines, glowing panels, custom cursor |
-| Product story | Threat detection, emotion analysis, distress recognition, emergency response |
-| Frontend showcase | React, TypeScript, Vite, Tailwind CSS, shadcn/ui |
-| Real-time prototype | Express, Socket.IO, WebRTC, audio sharing flow |
-| Portfolio value | Strong fit for public GitHub presentation, demos, and hackathons |
+| Brand and presentation | Strong cyberpunk identity, mythic GARUDA framing, premium visual tone |
+| Frontend | React landing page with matrix rain, dynamic particles, scan lines, glowing panels, and dashboard-style sections |
+| Prototype depth | A separate voice-call prototype adds real-time signaling and communication flow behind the concept |
+| GitHub polish | Clickable banner, visible demo preview, screenshot gallery, and cleaned folder structure |
 
-## Project Structure
+## Screenshot Gallery
+
+| Hero Experience | Threat Dashboard |
+| --- | --- |
+| [![Hero screenshot](./docs/screenshots/hero.jpg)](./docs/media/garuda-demo.mp4) | [![Dashboard screenshot](./docs/screenshots/dashboard.jpg)](./docs/media/garuda-demo.mp4) |
+
+| Workflow Section |
+| --- |
+| [![Workflow screenshot](./docs/screenshots/workflow.jpg)](./docs/media/garuda-demo.mp4) |
+
+## Repository Layout
 
 ```text
 .
 |-- garuda-sentinel-core/
-|-- amritapuri_test/
-|   |-- voice-call-webiste/
-|-- amritapuri_first/
+|-- prototypes/
+|   `-- voice-call-website/
+|-- archive/
+|   `-- amritapuri-first/
 |-- docs/
 |   |-- garuda-demo-poster.svg
-|   `-- media/
-|       `-- garuda-demo.mp4
+|   |-- media/
+|   |   |-- garuda-demo.mp4
+|   |   `-- garuda-preview.gif
+|   `-- screenshots/
+|       |-- dashboard.jpg
+|       |-- hero.jpg
+|       `-- workflow.jpg
 |-- .gitignore
 `-- README.md
 ```
 
-## Main Parts
+## Main Folders
 
 ### `garuda-sentinel-core`
 
-This is the primary GitHub-facing app and the strongest part of the project presentation.
+This is the public-facing centerpiece of the repository.
 
-- Cinematic landing page
-- Secure-portal hero section
-- Voice analysis workflow
-- Industry application cards
-- Threat dashboard visuals
-- Technology and security storytelling
-- Testimonials and metrics
+- premium landing page
+- secure-portal hero
+- voice-analysis workflow
+- cyber threat visualization
+- testimonials and security positioning
+- responsive React and Tailwind implementation
 
-### `amritapuri_test/voice-call-webiste`
+### `prototypes/voice-call-website`
 
-This is the functional communication prototype behind the concept.
+This is the supporting prototype that gives the concept technical credibility.
 
-- Room-based call flow
-- Host approval system
-- WebRTC signaling
-- Audio sharing support
-- Secure recording and metadata utilities
+- Express server
+- Socket.IO signaling
+- WebRTC audio call flow
+- host approval process
+- audio sharing support
+- Twilio config moved to environment-based placeholders for safe public publishing
 
-### `amritapuri_first`
+### `archive/amritapuri-first`
 
-This folder contains earlier prototype material and legacy static assets.
+This folder keeps the earlier prototype accessible without crowding the main public repo view.
 
 ## Tech Stack
 
@@ -96,6 +105,7 @@ This folder contains earlier prototype material and legacy static assets.
 - Express
 - Socket.IO
 - WebRTC
+- FFmpeg for demo asset generation and optimization
 
 ## Run Locally
 
@@ -112,19 +122,26 @@ Available at `http://localhost:8080`
 ### Voice-call prototype
 
 ```bash
-cd amritapuri_test/voice-call-webiste
+cd prototypes/voice-call-website
 npm install
 npm start
 ```
 
 Available at `http://localhost:3002`
 
-## Public Repo Notes
+## Demo Assets
 
-- The root folder is organized as a multi-project workspace.
-- `garuda-sentinel-core` is the main showcase app.
-- `docs/media/garuda-demo.mp4` keeps the GitHub demo asset in a predictable place.
-- The top README banner is intentionally designed to make the repo feel more like a polished product page than a raw code dump.
+- Full demo video: `docs/media/garuda-demo.mp4`
+- Animated inline preview: `docs/media/garuda-preview.gif`
+- Screenshots: `docs/screenshots/`
+
+The original oversized demo was replaced with a compressed version to make the public repository more professional and easier to browse.
+
+## Notes
+
+- The repository has been cleaned so the strongest folders sit at the top level.
+- Hardcoded secrets were removed before publishing.
+- The archived prototype is still preserved, but the public view now emphasizes the best implementation first.
 
 ## Author
 
